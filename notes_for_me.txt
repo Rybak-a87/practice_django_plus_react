@@ -137,3 +137,5 @@ Django + React.js
     - установить в React -> axios (для осуществления запросов к API (при желании модно воспользоваться fetch вместо axios))
     npm install axios
 
+3. Модели - Manager - QuerySet
+
