@@ -133,3 +133,7 @@ Django + React.js
         - Объединить приложение в статические файлы для производства (build)
         - копировать файлы из STATICFILES_DIRS в STATIC_ROOT
 
+2. Axios и тестовое API
+    - установить в React -> axios (для осуществления запросов к API (при желании модно воспользоваться fetch вместо axios))
+    npm install axios
+
