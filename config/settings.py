@@ -54,7 +54,7 @@ ROOT_URLCONF = 'config.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / "mainapp-ui/build"],    # подключение папку шаблонов со статическими файлами (с React)
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -118,3 +118,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / "static"    # корневая папка со статическими фалами (помещаем файлы с React)
+
+STATICFILES_DIRS = (
+    (BASE_DIR / "mainapp-ui/build/static"),    # забираем файлы с React
+)

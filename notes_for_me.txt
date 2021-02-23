@@ -127,4 +127,9 @@ npm run eject
 
 Django + React.js
 
-1.
+1. Создание проекта
+    - на ПК должен быть установлен node.js, npm (node package manager) и yarn
+    Всегда при изменении файлов в React:
+        - Объединить приложение в статические файлы для производства (build)
+        - копировать файлы из STATICFILES_DIRS в STATIC_ROOT
+
