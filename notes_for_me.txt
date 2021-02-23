@@ -150,3 +150,7 @@ Django + React.js
 
 7. Категории в Navbar с useEffect
 
+8. Немного про React Router Dom
+    установка:
+        npm install --save react-router-dom
+

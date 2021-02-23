@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";   // useState и useEffect - хуки
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Link } from "react-router-dom";
+
 
 function Navbar() {
 
@@ -29,7 +31,8 @@ function Navbar() {
                     <div className="navbar-nav">
 
                             {categories.map(c => (    // цикл
-                                <a className="nav-link" href="#" key={c.id}>{c.name}</a>
+                                //ниже аналог <a className="nav-link" href="#" key={c.id}>{c.name}</a>
+                                <Link className="nav-link" to={{ pathname: `/category/${c.id}/`, fromDashboard: false }}>{c.name}</Link>
                             ))}
 
                     </div>
