@@ -144,3 +144,7 @@ Django + React.js
 5. POST, PUT, DELETE - Создание, изменение и удаление объекта
        - Postman - для тестирования API
 
+6. Navbar + views.py serializer.py рефакторинг
+    - установить в React -> Bootstrap:
+        npm install --save bootstrap
+
