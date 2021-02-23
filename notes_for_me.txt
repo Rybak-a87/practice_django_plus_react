@@ -148,3 +148,5 @@ Django + React.js
     - установить в React -> Bootstrap:
         npm install --save bootstrap
 
+7. Категории в Navbar с useEffect
+
