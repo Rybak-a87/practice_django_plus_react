@@ -154,3 +154,5 @@ Django + React.js
     установка:
         npm install --save react-router-dom
 
+9. React Router Dom и match в компоненте
+

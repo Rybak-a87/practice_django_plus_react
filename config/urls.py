@@ -7,5 +7,6 @@ from mainapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", views.index),
+    path("category/<int:id>/", views.category_detail),
     path("api/", include("mainapp.api.urls")),
 ]
