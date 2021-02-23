@@ -141,3 +141,6 @@ Django + React.js
 
 4. Serializer Viewset Router
 
+5. POST, PUT, DELETE - Создание, изменение и удаление объекта
+       - Postman - для тестирования API
+
