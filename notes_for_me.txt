@@ -156,3 +156,5 @@ Django + React.js
 
 9. React Router Dom и match в компоненте
 
+10. PostDetail и список постов в категории
+

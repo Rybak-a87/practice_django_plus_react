@@ -8,5 +8,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("", views.index),
     path("category/<int:id>/", views.category_detail),
+    path("posts/<int:id>/", views.post_detail),
     path("api/", include("mainapp.api.urls")),
 ]
