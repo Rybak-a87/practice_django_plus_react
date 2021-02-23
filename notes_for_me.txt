@@ -139,3 +139,5 @@ Django + React.js
 
 3. Модели - Manager - QuerySet
 
+4. Serializer Viewset Router
+
